@@ -28,7 +28,10 @@ import {
 } from "@/components/ui/card"
 import { Separator } from '@/components/ui/separator'
 
-const geistMono = Geist_Mono()
+const geistMono = Geist_Mono({
+    variable: "--font-geist-mono",
+    subsets: ['latin']
+})
 
 export default function Page() {
 
